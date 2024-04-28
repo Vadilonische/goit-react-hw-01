@@ -1,0 +1,55 @@
+.descriptionProfile {
+  border: 1px solid black;
+  border-radius: 15px;
+  background-color: beige;
+
+  margin: 20px;
+  max-width: 250px;
+  min-height: 280px;
+}
+
+.generalInfoProfile {
+  text-align: center;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+}
+
+.avatarProfile {
+  border-radius: 50%;
+  object-fit: cover;
+  background-color: #a9a9a9;
+  margin: 20px 0;
+}
+
+.nameProfile {
+  font-size: 16px;
+  font-weight: 700;
+  margin-bottom: 10px;
+}
+
+.textProfile {
+  font-size: 16px;
+  color: #808080;
+  margin-bottom: 5px;
+}
+
+.listStatsProfile {
+  display: flex;
+  justify-content: space-between;
+
+  align-items: center;
+}
+
+.listDashboard {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-left: 1px solid #000;
+  border-top: 1px solid #000;
+
+  width: calc(100% / 3);
+}
+.listDashboard:first-child {
+  border-left: none;
+}
