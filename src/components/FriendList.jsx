@@ -1,6 +1,6 @@
 import FriendListItem from './FriendListItem';
 import clsx from 'clsx';
-import css from './Profile.module.css';
+import css from './FriendList.module.css';
 
 export default function FriendList({ friends }) {
   console.log(friends);
