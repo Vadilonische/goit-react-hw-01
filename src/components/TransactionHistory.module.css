@@ -1,0 +1,38 @@
+tr {
+  border: 1px solid #000;
+}
+th {
+  border: 1px solid #000;
+}
+td {
+  border: 1px solid #000;
+}
+
+.transactionTable {
+  border: 1px solid #000;
+  text-align: center;
+  padding: 4px 8px;
+  width: 400px;
+  border-collapse: collapse;
+}
+
+.transactionTableHead {
+  text-align: center;
+  background-color: rgb(73, 73, 73);
+  color: white;
+}
+
+.tableBody {
+}
+
+.tableList {
+  text-align: center;
+}
+
+tr:nth-child(odd) {
+  background-color: transparent;
+}
+
+tr:nth-child(even) {
+  background-color: #c4c4c4;
+}
